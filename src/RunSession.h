@@ -5,6 +5,7 @@
 #include "IInputGenerator.h"
 #include "IScoringRule.h"
 #include "IRewardRule.h"
+#include "ShopSystem.h"
 
 class RunSession
 {
@@ -13,6 +14,7 @@ private:
     IInputGenerator *inputGen;
     IScoringRule *scoring;
     IRewardRule *reward;
+    ShopSystem shop;
 
     int money = 0;
 
@@ -41,6 +43,8 @@ public:
             money += gain;
 
             std::cout << "[REWARD] gain: " << gain << " | money: " << money << "\n";
+
+            shop.showShop(reward, money);
         }
 
         std::cout << "\n=== RUN END ===\n";

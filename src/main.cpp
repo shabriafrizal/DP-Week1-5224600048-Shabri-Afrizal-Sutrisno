@@ -1,12 +1,17 @@
+#include <cstdlib>
+#include <ctime>
+
 #include "RunSession.h"
-#include "SimpleInputGenerator.h"
+#include "RandomInputGenerator.h"
 #include "BasicScoringRule.h"
 #include "BasicRewardRule.h"
 
 int main()
 {
 
-    SimpleInputGenerator input;
+    srand(time(0));
+
+    RandomInputGenerator input;
     BasicScoringRule scoring;
     BasicRewardRule reward;
 
