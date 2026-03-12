@@ -2,9 +2,9 @@
 #define RUNSESSION_H
 
 #include <iostream>
-#include "IInputGenerator.h"
-#include "IScoringRule.h"
-#include "IRewardRule.h"
+#include "../Interface/IInputGenerator.h"
+#include "../Interface/IScoringRule.h"
+#include "../Interface/IRewardRule.h"
 #include "ShopSystem.h"
 
 class RunSession

@@ -1,7 +1,7 @@
 #ifndef RANDOMINPUTGENERATOR_H
 #define RANDOMINPUTGENERATOR_H
 
-#include "IInputGenerator.h"
+#include "../Interface/IInputGenerator.h"
 #include <cstdlib>
 
 class RandomInputGenerator : public IInputGenerator

@@ -1,7 +1,7 @@
 #ifndef BASICSCORINGRULE_H
 #define BASICSCORINGRULE_H
 
-#include "IScoringRule.h"
+#include "../Interface/IScoringRule.h"
 
 class BasicScoringRule : public IScoringRule
 {

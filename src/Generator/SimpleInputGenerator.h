@@ -1,7 +1,7 @@
 #ifndef SIMPLEINPUTGENERATOR_H
 #define SIMPLEINPUTGENERATOR_H
 
-#include "IInputGenerator.h"
+#include "../Interface/IInputGenerator.h"
 
 class SimpleInputGenerator : public IInputGenerator
 {

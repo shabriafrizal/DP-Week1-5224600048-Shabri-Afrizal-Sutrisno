@@ -1,7 +1,7 @@
 #ifndef BASICREWARDRULE_H
 #define BASICREWARDRULE_H
 
-#include "IRewardRule.h"
+#include "../Interface/IRewardRule.h"
 
 class BasicRewardRule : public IRewardRule
 {

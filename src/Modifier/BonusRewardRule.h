@@ -1,7 +1,7 @@
 #ifndef BONUSREWARDRULE_H
 #define BONUSREWARDRULE_H
 
-#include "IRewardRule.h"
+#include "../Interface/IRewardRule.h"
 
 class BonusRewardRule : public IRewardRule
 {

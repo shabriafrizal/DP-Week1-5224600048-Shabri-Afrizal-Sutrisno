@@ -1,10 +1,10 @@
 #include <cstdlib>
 #include <ctime>
 
-#include "RunSession.h"
-#include "RandomInputGenerator.h"
-#include "BasicScoringRule.h"
-#include "BasicRewardRule.h"
+#include "System/RunSession.h"
+#include "Generator/RandomInputGenerator.h"
+#include "Modifier/BasicScoringRule.h"
+#include "Modifier/BasicRewardRule.h"
 
 int main()
 {

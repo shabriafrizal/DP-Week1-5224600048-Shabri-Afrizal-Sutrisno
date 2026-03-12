@@ -3,8 +3,8 @@
 
 #include <iostream>
 #include <cstdlib>
-#include "IRewardRule.h"
-#include "BonusRewardRule.h"
+#include "../Interface/IRewardRule.h"
+#include "../Modifier/BonusRewardRule.h"
 
 class ShopSystem
 {
